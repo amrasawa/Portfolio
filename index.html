@@ -16,6 +16,23 @@
                         <a href="#top" target="amra">amra sawalha</a>
                     </section>
                     <nav class="header-nav">
+                        <ul class="sidebar">
+                            <li>
+                                <a onclick=hideSideBar() class="close-sidebar"href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"/></svg></a>
+                            </li>
+                            <li>
+                                <a href="#top">home</a>
+                            </li>
+                            <li>
+                                <a href="#about">about</a>
+                            </li>
+                            <li>
+                                <a href="#projects">projects</a>
+                            </li>
+                            <li>
+                                <a href="#contact">contact</a>
+                            </li>
+                        </ul>
                         <ul class="nav-items">
                             <li>
                                 <a href="#top">home</a>
@@ -30,10 +47,9 @@
                                 <a href="#contact">contact</a>
                             </li>
                         </ul>
+                        <a onclick=showSideBar() class="burger-menu" role="burger-menu" href="#"><svg width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></a>
                     </nav>
-                    <div class="burger-menu" role="burger-menu">
-                        <svg width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
-                    </div>
+                    
                 </div>
             </div>
         </header>
@@ -45,7 +61,6 @@
                     <a href="#project"class="button">projects</a>
                 </div>
             </section>
-        </div>
         <main id="about" class="container about">
             <div class="about-header">
                 <h1>about me</h1>
@@ -157,5 +172,6 @@
                 </div>
             </div>
         </footer>
+        <script src="./main.js"></script>
     </body>
 </html>
